@@ -1,0 +1,61 @@
+/* ** */
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* body */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Banner section */
+
+     /* Banner Container Section */
+
+.banner-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:850px ;
+    margin-bottom: 200px;
+    
+
+}
+.banner-text{
+    margin-left: 100px;
+    
+}
+.heading-text{
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+color: rgb(82, 82, 82);
+margin-bottom: 25px;
+
+}
+.pera-text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px; 
+}
+.primary-button{
+    padding:20px 40px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-images{
+    margin-top: 53px;
+    margin-right: 100px;
+    
+}
+
+/* <!-- Hot deals section - ->*/
