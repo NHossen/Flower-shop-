@@ -39,6 +39,12 @@ body{
     text-decoration: none;
 }
 
+/* shoping cart */
+
+.shop-cart{
+    padding-left: 40px;
+    font-size: 22px;
+}
 /* Banner section */
 
      /* Banner Container Section */
