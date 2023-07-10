@@ -59,3 +59,35 @@ margin-bottom: 25px;
 }
 
 /* <!-- Hot deals section - ->*/
+
+
+.hot-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding:50px ;
+    
+
+}
+.hot-text{
+    padding-left: 250px;
+
+}
+.heading-hot-text{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hot-pera-text{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sign-up{
+    margin-left: 140px;
+}
+.hot-images img{
+   width: 318px; 
+   padding-right: 329px;
+}
