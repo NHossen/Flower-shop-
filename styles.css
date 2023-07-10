@@ -9,6 +9,36 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* header section */
+
+.delivery-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #111010;
+    color: aliceblue;
+    padding: 15px;
+}
+
+/* brand header */
+.brand-title h1{
+    font-size: 44px;
+}
+
+.header-brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.social-connection ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.social-connection li a{
+    text-decoration: none;
+}
+
 /* Banner section */
 
      /* Banner Container Section */
