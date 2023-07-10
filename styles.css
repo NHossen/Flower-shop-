@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height:850px ;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     
 
 }
@@ -65,7 +65,7 @@ margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     padding:50px ;
@@ -79,6 +79,7 @@ margin-bottom: 25px;
 .heading-hot-text{
     text-align: center;
     margin-bottom: 15px;
+    color: rgb(82, 82, 82);
 }
 .hot-pera-text{
     text-align: center;
@@ -103,6 +104,7 @@ margin-bottom: 25px;
     margin-bottom: 20px;
     width: 600px;
     margin: 0 auto;
+    color: rgb(82, 82, 82);
 }
 .instagram-text h1{
     font-size: 45px;
@@ -112,23 +114,89 @@ margin-bottom: 25px;
     font-size: 18px;
 }
 .insta-img{
-    width: 230px;
+    width: 300px;
 }
 .instagram-images{
     display: flex;
    justify-content: space-around;
-   padding-left: 210px;
-   padding-right: 210px;
+   padding-left: 41px;
+   padding-right: 41px;
 }
 /* latest collection section */
 
 .latest-container{
     background-image: url(images/Rectangle\ 9.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1440px;
     height: 449px;
     margin-bottom: 200px;
+    border-radius: 8px;
+    margin: 75px;
 }
 .latest-text{
     text-align: center;
     padding-top: 122px;
+}
+.latest-text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(82, 82, 82);
+}
+.latest-text p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.subscibed-input{
+    display: flex;
+    gap: 8px;
+    
+}
+.subscibed-input input{
+    width: 700px;
+    height: 64px;
+    /* margin:0 auto;
+     */
+     margin-left: 280px;
+     border-radius: 8px;
+     border: none;
+     padding-left: 20px;
+     font-size: 16px;
+     font-weight: 400;
+}
+
+/* span color */
+span{
+    color: #E55473;
+}
+
+/* footer section */
+.flower-shop{
+    background: #111010;
+    height:449px ;
+    text-align: center;
+    color: white;
+
+}
+.flower-shop h1{
+    padding-top:150px;
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.flower-shop .pera{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    margin-left: 490px;
+    line-height: 30px;
+}
+.flower-shop .copyright{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: rgb(200, 200, 200);
 }
