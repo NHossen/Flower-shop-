@@ -102,9 +102,11 @@ margin-bottom: 25px;
  Our Featured Flowers */
 
  .feature-flower{
+    display: block;
     text-align: center;
-    margin-bottom: 45px;
+    margin: 45px;
     color: rgb(82, 82, 82);
+    
     
  }
  .feature-flower h1{
@@ -116,6 +118,8 @@ margin-bottom: 25px;
     display: flex;
     margin-bottom: 10px;
     justify-content: space-around;
+    
+    
     /* gap: 25px; */
     /* margin-left: 200px;
     margin-right: 33300px; */
@@ -217,7 +221,9 @@ text-decoration-line: underline;
 }
 /* instagram Section */
 .instagram-container{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    display: block;
+    margin: 50px;
 }
 .instagram-text{
     margin-bottom: 48px;
@@ -238,12 +244,13 @@ text-decoration-line: underline;
 }
 .insta-img{
     width: 300px;
+    /* display: block; */
+    /* margin: 80px; */
 }
 .instagram-images{
     display: flex;
    justify-content: space-around;
-   padding-left: 41px;
-   padding-right: 41px;
+   margin: 20px;
 }
 /* latest collection section */
 
@@ -252,11 +259,13 @@ text-decoration-line: underline;
     
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
+    /* width:100%; */
     height: 449px;
     margin-bottom: 200px;
     border-radius: 8px;
-    margin: 75px;
+    display: block;
+    margin: 80px;
+    
 }
 .latest-text{
     text-align: center;
@@ -313,8 +322,8 @@ span{
     font-size: 18px;
     font-weight: 400;
     width: 600px;
-    margin-left: 490px;
-    line-height: 30px;
+    margin-left: 400px;
+    
 }
 .flower-shop .copyright{
     font-size: 16px;
